@@ -1,0 +1,19 @@
+.card__info {
+  margin: 0;
+  margin-top: 16px;
+  margin-right: 32px;
+  padding: 0;
+
+  display: flex;
+
+  font-family: 'Golos', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 133%;
+
+  color: #212329;
+}
+.card__info:first-child {
+  margin-top: 32px;
+}

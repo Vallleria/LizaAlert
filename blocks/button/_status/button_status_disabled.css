@@ -1,0 +1,6 @@
+.button_status_disabled {
+  background: #e6e7eb;
+  color: #9397a3;
+
+  cursor: default;
+}

@@ -1,0 +1,36 @@
+/* Страница */
+@import url(../blocks/page/page.css);
+
+/* Кнопка */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_card.css);
+@import url(../blocks/button/_place/button_place_form.css);
+
+@import url(../blocks/button/_status/button_status_disabled.css);
+@import url(../blocks/button/_status/button_status_active.css);
+@import url(../blocks/button/_status/button_status_ready.css);
+
+/* Использовать для кнопки с SVG (выход из профиля) */
+@import url(../blocks/button/_with-icon/button_with-icon.css);
+
+/* Иконки */
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/_place/icon_place_button.css);
+@import url(../blocks/icon/_place/icon_place_header.css);
+@import url(../blocks/icon/_place/icon_place_card.css);
+
+/* Карточки */
+@import url(../blocks/cards/cards.css);
+
+/* Каждая карточка*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__tag/card__tag.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__info/card__info.css);
+
+/* Разработка */
+/* body {
+  background-color: black;
+} */
