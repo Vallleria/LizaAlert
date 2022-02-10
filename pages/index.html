@@ -18,7 +18,7 @@
     <p>Выйти из аккаунта</p>
   </button>
   <button class="button button_place_form button_status_disabled">Сохранить изменения</button> -->
-
+<!-- 
 
     <div class="cards">
 
@@ -159,7 +159,75 @@
     </div>
 
 
-  </div>
+  </div> -->
+
+  <!-- FILTERS -->
+  <aside class="card-filters">
+    <div class="card-filters__header">
+      <h3 class="card-filters__title">Фильтры</h3>
+      <button class="card-filters__btn" type="button">Очистить</button>
+    </div>
+    <form class="filter-form" action="#">
+      <ul class="accordion">
+        <li class="accordion__item">
+          <div class="accordion__header">
+            <h3 class="accordion__title">Категория</h3>
+            <button class="accordion__collapse-btn" type="button"></button>
+          </div>
+          <div class="accordion__body accordion__body_hide">
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox" checked>
+              <span class="checkbox__text">Активный элемент</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox" checked>
+              <span class="checkbox__text">Активный элемент</span>
+            </label>
+
+
+            <label class="checkbox">
+              <input class="checkbox__item" type="checkbox" disabled>
+              <span class="checkbox__text"> Заблокированный элемент</span>
+            </label>
+
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox">
+              <span class="checkbox__text"> Элемент списка</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox" >
+              <span class="checkbox__text">Элемент списка</span>
+            </label>
+
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__header">
+            <h3 class="accordion__title">Тематика</h3>
+            <button class="accordion__collapse-btn" type="button"></button>
+          </div>
+          <div class="accordion__body">
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox" checked>
+              <span class="checkbox__text">Новичок</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox" disabled>
+              <span class="checkbox__text">Бывалый</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__item"  type="checkbox">
+              <span class="checkbox__text">Профессионал</span>
+            </label>
+          </div>
+        </li>
+      </ul>
+
+    </form>
+  </aside>
+</div>
+  <!-- END FILTERS-->
+  <script src="../scripts/accordion.js"></script>
 </body>
 
 </html>
