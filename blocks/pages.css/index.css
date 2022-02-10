@@ -1,12 +1,4 @@
-@import '../../vendor/normalize.css';
 
-@import '../page/page.css';
-
-@import '../header/header.css';
-@import '../header/__title/header__title.css';
-@import '../header/__nav/header__nav.css';
-@import '../header/__link/header__link.css';
-@import '../header/__link/_active/header__link_active.css';
 /* @import '../header/__logo/.header__logo'; */
 
 
