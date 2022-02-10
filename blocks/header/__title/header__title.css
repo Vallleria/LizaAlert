@@ -1,0 +1,17 @@
+.header__title {
+	font-family: Golos, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #212329;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 580px) {
+	.header__title {
+		padding-right: 15px;
+	}
+}
+
