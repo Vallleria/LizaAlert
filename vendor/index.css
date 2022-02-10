@@ -2,7 +2,7 @@
 
 /* Страница */
 @import url(../blocks/page/page.css);
-
+@import url(../blocks/page/__title/page__title.css);
 
 /* Шапка */
 @import url(../blocks/header/header.css);
@@ -52,9 +52,6 @@
 @import url(../blocks/accordion/__collapse-btn/_collapsed/accordion__collapse-btn_collapsed.css);
 @import url(../blocks/accordion/__body/accordion__body.css);
 
-
-
-
 @import url(../blocks/accordion/__header/accordion__header.css);
 @import url(../blocks/accordion/__title/accordion__title.css);
 
@@ -63,4 +60,3 @@
 @import url(../blocks/checkbox/__item/checkbox__item.css);
 
 @import url(../blocks/accordion/__body/_hide/accordion__body_hide.css);
-

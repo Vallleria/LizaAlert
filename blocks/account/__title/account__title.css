@@ -1,0 +1,20 @@
+.account__title {
+  padding: 0;
+  margin: 0;
+
+  margin-top: 18px;
+
+  font-family: 'Golos', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+
+  /* grid-area: 'title'; */
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  color: #212329;
+}
