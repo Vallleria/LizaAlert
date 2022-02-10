@@ -30,7 +30,27 @@
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__info/card__info.css);
 
-/* Разработка */
-/* body {
-  background-color: black;
-} */
+/* FILTERS*/
+@import url(../blocks/filter-form/filter-form.css);
+@import url(../blocks/card-filters/card-filters.css);
+@import url(../blocks/card-filters/__header/card-filters__header.css);
+@import url(../blocks/card-filters/__title/card-filters__title.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/card-filters/__btn/card-filters__btn.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__collapse-btn/accordion__collapse-btn.css);
+@import url(../blocks/accordion/__collapse-btn/_collapsed/accordion__collapse-btn_collapsed.css);
+@import url(../blocks/accordion/__body/accordion__body.css);
+
+
+
+
+@import url(../blocks/accordion/__header/accordion__header.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__text/checkbox__text.css);
+@import url(../blocks/checkbox/__item/checkbox__item.css);
+
+@import url(../blocks/accordion/__body/_hide/accordion__body_hide.css);
+

@@ -1,0 +1,3 @@
+.accordion__collapse-btn_collapsed {
+    transform: rotate(180deg);
+}
