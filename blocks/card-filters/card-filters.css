@@ -1,0 +1,9 @@
+.card-filters{
+    box-sizing: border-box;
+    max-width: 312px;
+    padding: 32px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+}

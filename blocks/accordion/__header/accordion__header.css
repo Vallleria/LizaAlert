@@ -1,0 +1,6 @@
+.accordion__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0;
+
+}
