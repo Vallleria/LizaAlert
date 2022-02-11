@@ -1,9 +1,7 @@
 .card {
   margin: 0;
   padding: 0;
-  /* margin-bottom: 24px; */
 
-  width: 984px;
   height: 240px;
 
   background: #ffffff;
@@ -17,4 +15,5 @@
   display: flex;
   flex-direction: row;
   gap: 24px;
+
 }
