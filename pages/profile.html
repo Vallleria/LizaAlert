@@ -6,7 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Профиль</title>
+	<link rel="stylesheet" href="../vendor/normalize.css">
 	<link rel="stylesheet" href="../vendor/profile.css">
+	<link rel="stylesheet" href="../vendor/fonts.css">
 </head>
 
 <body>
@@ -54,10 +56,9 @@
 					value="Белка">
 			  	<label for="photo" class="form__label">Фото</label>
 			  	<label for="photo" class="form__item form__item_el_file form__item_icon_clip">photo.jpg</label>
-			  	<input type="file" name="photo" id="photo" style="opacity: 0;" accept=".jpg, .jpeg, .png"
+			  	<input type="file" name="photo" id="photo" style="opacity: 0; width: 1px; height: 1px;" accept=".jpg, .jpeg, .png"
 					onchange="processSelectedFiles(this)" />
 			  	<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
-			  	</fieldset>
 				</form>
 		  </section>
 
@@ -70,10 +71,10 @@
 			  	<label for="user-email" class="form__label">Email</label>
 			  	<input class="form__item form__item_el_text form__item_icon_pencil" type="email" id="user-email"
 					name="user-email" value="anna@liza-alert.ru">
-			  	<label for="user-password" class="form__label">Пароль</label>
-			  	<div class="password">
+					<label for="password" class="form__label">Пароль</label>
+			  	<div class="form__item_el_password">
 					<input id="user-password" type="password" class="form__item form__item_el_hidden form__item_icon_pencil" oninput="showStars()" tabindex=-1>
-					<input id="user-password" type="text" class="form__item form__item_el_visible form__item_icon_pencil" value="*********">
+					<input id="password" type="text" class="form__item form__item_el_visible form__item_icon_pencil" value="*********">
 			  	</div>
 			  	<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
 			</form>

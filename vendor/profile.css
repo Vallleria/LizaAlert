@@ -21,6 +21,8 @@
 @import url(../blocks/button/_place/button_place_form.css);
 @import url(../blocks/button/_with-icon/button_with-icon.css);
 @import url(../blocks/button/_status/button_status_ready.css);
+@import url(../blocks/button/_status/button_status_active.css);
+@import url(../blocks/button/_status/button_status_disabled.css);
 
 /* Форма */
 @import url(../blocks/form/form.css);
