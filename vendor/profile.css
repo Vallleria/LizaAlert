@@ -21,3 +21,20 @@
 @import url(../blocks/button/_place/button_place_form.css);
 @import url(../blocks/button/_with-icon/button_with-icon.css);
 @import url(../blocks/button/_status/button_status_ready.css);
+
+/* Форма */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__label/form__label.css);
+
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_date.css);
+@import url(../blocks/form/__item/_el/form__item_el_file.css);
+@import url(../blocks/form/__item/_el/form__item_el_text.css);
+@import url(../blocks/form/__item/_el/form__item_el_password.css);
+@import url(../blocks/form/__item/_el/form__item_el_hidden.css);
+@import url(../blocks/form/__item/_el/form__item_el_visible.css);
+@import url(../blocks/form/__item/_el/);
+@import url(../blocks/form/__item/_icon/form__item_icon_clip.css);
+@import url(../blocks/form/__item/_icon/form__item_icon_pencil.css);

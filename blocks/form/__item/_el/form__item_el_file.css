@@ -1,0 +1,7 @@
+.form__item_el_file::-webkit-file-upload-button {
+  display: none;
+}
+
+.form__item_el_file {
+  cursor: pointer;
+}
