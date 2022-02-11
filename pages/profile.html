@@ -37,7 +37,50 @@
 				<p class="account__quit-text">Выйти из аккаунта</p>
 			</button>
 		</div>
+		<section class="form">
+			<form class="form__container">
+			  	<h2 class="form__title">Личные данные</h2>
+			  	<label for="full-name" class="form__label">ФИО</label>
+			  	<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="full-name" name="full-name"
+					value="Иванова Анна Сидоровна">
+			  	<label for="date-birth" class="form__label">Дата рождения</label>
+			  	<input class="form__item form__item_el_date form__item_icon_pencil" type="date" id="date-birth"
+					name="date-birth" value="1990-01-01">
+			  	<label for="region" class="form__label">Географический регион</label>
+			  	<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="region" name="region"
+					value="г. Санкт-Петербург">
+			  	<label for="nickname" class="form__label">Позывной на форуме</label>
+			  	<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="nickname" name="nickname"
+					value="Белка">
+			  	<label for="photo" class="form__label">Фото</label>
+			  	<label for="photo" class="form__item form__item_el_file form__item_icon_clip">photo.jpg</label>
+			  	<input type="file" name="photo" id="photo" style="opacity: 0;" accept=".jpg, .jpeg, .png"
+					onchange="processSelectedFiles(this)" />
+			  	<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
+			  	</fieldset>
+				</form>
+		  </section>
+
+		<section class="form">
+			<form class="form__container">
+			  	<h2 class="form__title">Аккаунт</h2>
+			  	<label for="user-phone" class="form__label">Номер телефона</label>
+			  	<input class="form__item form__item_el_text" type="tel" id="user-phone" name="user-phone"
+					placeholder="+7 123 456 78 90">
+			  	<label for="user-email" class="form__label">Email</label>
+			  	<input class="form__item form__item_el_text form__item_icon_pencil" type="email" id="user-email"
+					name="user-email" value="anna@liza-alert.ru">
+			  	<label for="user-password" class="form__label">Пароль</label>
+			  	<div class="password">
+					<input id="user-password" type="password" class="form__item form__item_el_hidden form__item_icon_pencil" oninput="showStars()" tabindex=-1>
+					<input id="user-password" type="text" class="form__item form__item_el_visible form__item_icon_pencil" value="*********">
+			  	</div>
+			  	<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
+			</form>
+		</section>
 	</div>
+	<script src="../scripts/hidepassword.js"></script>
+	<script src="../scripts/selectedfiles.js"></script>
 </body>
 
 </html>
