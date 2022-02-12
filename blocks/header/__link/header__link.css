@@ -7,3 +7,7 @@
 	color: #232129;
 }
 
+.header__link:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
