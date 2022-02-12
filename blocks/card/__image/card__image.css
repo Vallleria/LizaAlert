@@ -1,5 +1,11 @@
 .card__image {
-  padding: 0;
-  border-radius: 16px;
-  height: 100%;
+	padding: 0;
+	border-radius: 16px;
+	max-width: 200px;
+}
+@media screen and (max-width: 1250px) {
+	.card__image {
+		max-height: 300px;
+		align-self: center;
+	}
 }
