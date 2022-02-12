@@ -1,7 +1,9 @@
 .header__link {
-	display: block;
+	display: flex;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 24px;
+	justify-content: center;
+	color: #232129;
 }
 
