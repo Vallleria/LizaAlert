@@ -59,3 +59,4 @@
 /* Информация к форме */
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__text/info__text.css);
