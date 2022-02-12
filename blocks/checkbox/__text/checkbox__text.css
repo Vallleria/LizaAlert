@@ -2,18 +2,37 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+	font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .checkbox__text::before {
     content: "";
     display: inline-block;
     left: 0px;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border: 2px solid rgba(33, 35, 41, 1);
     border-radius: 5px;
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 8px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+	.checkbox__text {
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+@media screen and (max-width: 787px) {
+	.checkbox__text::before {
+		width: 15px;
+		height: 15px;
+		margin-right: 6px;
+	}
 }

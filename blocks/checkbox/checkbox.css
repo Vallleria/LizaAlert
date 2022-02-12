@@ -1,12 +1,15 @@
-.checkbox{
+.checkbox {
     display: flex;
     position: relative;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
     margin-bottom: 16px;
 }
 
 .checkbox:last-of-type {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 787px) {
+	.checkbox {
+		margin-bottom: 12px;
+	}
 }
