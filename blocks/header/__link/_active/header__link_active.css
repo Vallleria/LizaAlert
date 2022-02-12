@@ -1,3 +1,4 @@
 .header__link_active {
-	
+	cursor: default;
+	color: #F06000;
 }
