@@ -1,4 +1,8 @@
 .card__title {
+	margin: 0;
+	padding: 0;
+	padding-top: 32px;
+	padding-bottom: 16px;
 	font-family: "Golos", Arial, sans-serif;
 	font-style: normal;
 	font-weight: bold;
