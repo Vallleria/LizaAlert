@@ -6,4 +6,7 @@
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 100%;
+
+	grid-area: page-title;
+	justify-self: start;
 }

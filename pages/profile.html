@@ -23,16 +23,16 @@
 						<img class="header__logo" src="../src/images/hat.svg" alt="курсы">
 						<span class="header__text">Курсы</span>
 					</a>
-					<a href="##" class="header__link header__link_active">
+					<a href="#" class="header__link header__link_active">
 						<img class="header__logo" src="../src/images/person-active.svg" alt="профиль">
 						<span class="header__text">Профиль</span>
 					</a>
 				</div>
 			</div>
 		</header>
-		<main class="section-center">
+		<main class="page-content page-content_index_profile section-center">
 			<h1 class="page__title">Профиль</h1>
-			<div class="account">
+			<section class="account">
 				<div class="account__avatar">
 					<img src="../src/images/avatar.jpg" alt="" class="account__picture">
 					<p class="account__title">Иванова Анна Сидоровна</p>
@@ -56,7 +56,8 @@
 					<img class="icon icon_place_button" src="../src/images/exit-door.svg" alt="">
 					<span class="account__quit-text">Выйти из аккаунта</span>
 				</button>
-			</div>
+			</section>
+
 			<section class="form">
 				<form class="form__container">
 					<h2 class="form__title">Личные данные</h2>
@@ -94,15 +95,35 @@
 					<div class="form__item_el_password">
 						<input id="user-password" type="password"
 							class="form__item form__item_el_hidden form__item_icon_pencil" oninput="showStars()"
-							tabindex=-1>
+							tabindex="-1">
 						<input id="password" type="text" class="form__item form__item_el_visible form__item_icon_pencil"
 							value="*********">
 					</div>
 					<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
 				</form>
 			</section>
+			<div class="info">
+				<p>Просьба указывать настоящие ФИО, это нужно для получения сертификатов</p>
+				<p>Географический регион влияет на доступность некоторых курсов и занятий</p>
+				<p>
+					Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите позывной на форуме — он будет
+					отображаться вместо ваших настоящих данных
+				</p>
+				<p>Требования к загружаемому фото:</p>
+				<ul class="info__list">
+					<li>разрешение не менее 640x640px</li>
+					<li>размер не более 3 МБ</li>
+				</ul>
+			</div>
+			<div class="info">
+				<p>Номер телефона используется как уникальный идентификатор пользователя, поэтому его нельзя поменять
+					вручную
+				</p>
+				<p>Если по какой-то причине у вас нет доступа к номеру телефона на который вы регистрировали аккаунт,
+					напишите в поддержку</p>
+				<p>Email нужен для восстановления пароля</p>
+			</div>
 		</main>
-
 	</div>
 	<script src="../scripts/hidepassword.js"></script>
 	<script src="../scripts/selectedfiles.js"></script>

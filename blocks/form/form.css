@@ -1,8 +1,15 @@
 .form {
-  box-sizing: border-box;
-  padding: 32px;
-  max-width: 648px;
-  background-color: #FFFFFF;
-  border-radius: 16px;
-  box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
+	box-sizing: border-box;
+	padding: 32px;
+	max-width: 648px;
+	background-color: #ffffff;
+	border-radius: 16px;
+	box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6),
+		0px 4px 16px rgba(231, 232, 235, 0.6);
+
+	grid-area: form;
+}
+.form:last-of-type {
+	grid-area: form2;
+	margin-bottom: 40px;
 }

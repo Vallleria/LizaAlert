@@ -1,0 +1,6 @@
+.info__list {
+	list-style: disc;
+}
+.info__list > li {
+	list-style: disc;
+}
