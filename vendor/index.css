@@ -6,7 +6,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__title/page__title.css);
 
-
 /* Шапка */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);

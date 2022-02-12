@@ -1,4 +1,15 @@
 .button_place_card {
-  width: 224px;
-  margin: 64px 32px 0;
+	width: 224px;
+	margin: 64px 32px 0;
+}
+@media screen and (max-width: 1250px) {
+	.button_place_card {
+		margin: 20px 2px 0;
+	}
+}
+@media screen and (max-width: 787px) {
+	.button_place_card {
+		max-width: 200px;
+		margin: 20px 0 0;
+	}
 }
