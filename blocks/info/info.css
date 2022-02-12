@@ -1,0 +1,17 @@
+.info {
+	max-width: 312px;
+
+	font-family: "Golos", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 133%;
+
+	color: #9397a3;
+
+	grid-area: info;
+}
+
+.info:last-of-type {
+	grid-area: info2;
+}

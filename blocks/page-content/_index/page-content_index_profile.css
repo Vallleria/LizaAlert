@@ -1,0 +1,8 @@
+.page-content_index_profile {
+	grid-template-areas:
+		"page-title . ."
+		"account form info"
+		". form2 info2";
+	grid-template-columns: auto 1fr auto;
+	gap: 24px;
+}

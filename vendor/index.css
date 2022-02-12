@@ -17,6 +17,7 @@
 
 /* Page content */
 @import url(../blocks/page-content/page-content.css);
+@import url(../blocks/page-content/_index/page-content_index_courses.css);
 
 /* Page title */
 @import url(../blocks/page-title/page-title.css);

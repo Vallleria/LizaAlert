@@ -1,9 +1,3 @@
 .page-content {
 	display: grid;
-	grid-template-areas:
-		"page-title page-title"
-		"card-filters cards";
-	grid-template-columns: 1fr auto;
-
-	grid-template-columns: 1fr auto;
 }
