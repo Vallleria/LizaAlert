@@ -48,11 +48,6 @@
 @import url(../blocks/form/__item/form__item.css);
 @import url(../blocks/form/__item/_el/form__item_el_date.css);
 @import url(../blocks/form/__item/_el/form__item_el_file.css);
-@import url(../blocks/form/__item/_el/form__item_el_text.css);
-@import url(../blocks/form/__item/_el/form__item_el_password.css);
-@import url(../blocks/form/__item/_el/form__item_el_hidden.css);
-@import url(../blocks/form/__item/_el/form__item_el_visible.css);
-@import url(../blocks/form/__item/_el/);
 @import url(../blocks/form/__item/_icon/form__item_icon_clip.css);
 @import url(../blocks/form/__item/_icon/form__item_icon_pencil.css);
 
