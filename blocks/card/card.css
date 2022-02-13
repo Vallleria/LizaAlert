@@ -15,6 +15,7 @@
 	display: flex;
 	flex-direction: row;
 	gap: 24px;
+	color: #212329;
 }
 @media screen and (max-width: 1250px) {
 	.card {
@@ -32,4 +33,9 @@
 		padding: 0;
 		max-height: 580px;
 	}
+}
+
+.card_theme_dark {
+	background-color: #201717;
+	color: #fff;
 }

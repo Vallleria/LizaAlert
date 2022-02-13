@@ -4,10 +4,16 @@
 	font-size: 18px;
 	line-height: 24px;
 	justify-content: center;
-	color: #232129;
+	color: #212329;
 }
 
 .header__link:hover {
 	opacity: 0.6;
 	cursor: pointer;
+}
+
+.header__link_theme_dark {
+	box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
+    background-color: #fff;
+	border-radius: 16px;
 }

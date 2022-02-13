@@ -1,6 +1,12 @@
 .page {
 	min-width: 320px;
-	height: 100vh;
+
 	margin: 0 auto;
 	font-family: 'Golos', Arial, Helvetica, sans-serif;
+}
+
+
+.page_theme_dark {
+	background-color: #201717;
+	color: #fff;
 }

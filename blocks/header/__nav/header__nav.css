@@ -4,6 +4,7 @@
 	text-align: center;
 	gap: 42px;
 	list-style-type: none;
+	
 }
 
 @media screen and (max-width: 580px) {
