@@ -8,4 +8,8 @@
 
 	animation: rotate-down 0.5s linear;
 	transform: rotate(360deg);
+	align-self: center;
+	height: 12px;
+	border-radius: 50%;
+	background-color: white;
 }

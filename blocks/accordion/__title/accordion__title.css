@@ -4,6 +4,10 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
+	background-color: white;
+	color: #212329;
+	border-radius: 9px;
+	padding: 0 5px;
 }
 
 @media screen and (max-width: 787px) {

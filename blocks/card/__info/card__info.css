@@ -12,8 +12,9 @@
 	font-size: 18px;
 	line-height: 133%;
 
-	
+
 }
+
 .card__info:first-child {
 	margin-top: 32px;
 }
@@ -25,4 +26,13 @@
 	.card__info:first-child {
 		margin-top: 10px;
 	}
+}
+
+.card__info_theme_dark {
+	background-color: #e6e7eb;
+	border-radius: 10px;
+	padding: 2px 5px 0;
+	color: #212329;
+	max-width: 140px;
+	
 }
