@@ -1,9 +1,5 @@
 .page-content {
 	display: grid;
-	grid-template-areas:
-		"page-title page-title"
-		"card-filters cards";
-	grid-template-columns: 1fr auto;
 }
 
 @media screen and (max-width: 420px) {
