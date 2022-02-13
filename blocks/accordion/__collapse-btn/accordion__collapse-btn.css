@@ -6,6 +6,8 @@
 	background-color: transparent;
 	cursor: pointer;
 
+	margin-right: 6px;
+
 	animation: rotate-down 0.5s;
 	transform: rotate(360deg);
 }
