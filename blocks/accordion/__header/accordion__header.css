@@ -1,9 +1,8 @@
-.accordion__header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 26px;
+.accordion__header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 27px;
 	padding-bottom: 36px;
-
 }
 
 @media screen and (max-width: 787px) {

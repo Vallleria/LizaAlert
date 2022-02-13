@@ -1,12 +1,14 @@
+/* Техническое */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
 /* Страница */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__title/page__title.css);
-@import url(../blocks/section-center/section-center.css);
+@import url(../blocks/page/__title/_index/page__title_index_profile.css);
 
-/* page content */
-
-@import url(../blocks/page-content/page-content.css);
-@import url(../blocks/page-content/_index/page-content_index_profile.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__content/_index/page__content_index_profile.css);
 
 /* Шапка */
 @import url(../blocks/header/header.css);

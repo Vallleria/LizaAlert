@@ -1,4 +1,4 @@
-.page-content_index_courses {
+.page__content_index_courses {
 	grid-template-areas:
 		"page-title page-title"
 		"card-filters cards";

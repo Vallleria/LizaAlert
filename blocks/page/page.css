@@ -1,6 +1,6 @@
 .page {
 	min-width: 320px;
-	height: 100vh;
 	margin: 0 auto;
-	font-family: 'Golos', Arial, Helvetica, sans-serif;
+	font-family: "Golos", Arial, Helvetica, sans-serif;
+	background: #fcfcfc;
 }

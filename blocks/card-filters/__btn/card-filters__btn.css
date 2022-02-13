@@ -7,6 +7,12 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 24px;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.card-filters__btn:hover {
+	opacity: 0.6;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 787px) {

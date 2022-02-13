@@ -1,4 +1,9 @@
 .header__link_active {
 	cursor: default;
-	color: #F06000;
+	color: #f06000;
+}
+
+.header__link_active:hover {
+	cursor: default;
+	opacity: 1;
 }

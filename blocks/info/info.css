@@ -7,3 +7,9 @@
 .info:last-of-type {
 	grid-area: info2;
 }
+
+@media screen and (max-width: 1320px) {
+	.info {
+		margin-left: 15px;
+	}
+}
