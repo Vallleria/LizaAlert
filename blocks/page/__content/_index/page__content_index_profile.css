@@ -1,4 +1,4 @@
-.page-content_index_profile {
+.page__content_index_profile {
 	grid-template-areas:
 		"page-title ."
 		"account form"

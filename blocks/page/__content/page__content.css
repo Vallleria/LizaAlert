@@ -1,13 +1,16 @@
-.page-content {
+.page__content {
 	display: grid;
 	grid-template-areas:
 		"page-title page-title"
 		"card-filters cards";
 	grid-template-columns: 1fr auto;
+
+	max-width: 1320px;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 420px) {
-	.page-content {
+	.page__content {
 		grid-template-areas:
 			"page-title"
 			"card-filters"
