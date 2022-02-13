@@ -6,6 +6,6 @@
 	background-color: transparent;
 	cursor: pointer;
 
-	animation: rotate-down 0.5s linear;
+	animation: rotate-down 0.5s;
 	transform: rotate(360deg);
 }
