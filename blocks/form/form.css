@@ -1,0 +1,10 @@
+.form {
+	display: flex;
+	justify-content: space-between;
+
+	grid-area: form;
+}
+.form:last-of-type {
+	grid-area: form2;
+	margin-bottom: 40px;
+}

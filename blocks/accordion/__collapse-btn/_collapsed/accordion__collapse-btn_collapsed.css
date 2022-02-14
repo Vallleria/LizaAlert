@@ -1,0 +1,4 @@
+.accordion__collapse-btn_collapsed {
+	animation: rotate-up 0.5s;
+	transform: rotate(180deg);
+}

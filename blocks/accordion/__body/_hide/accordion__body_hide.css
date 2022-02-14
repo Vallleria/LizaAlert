@@ -1,0 +1,6 @@
+.accordion__body_hide {
+	padding: 0;
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+}

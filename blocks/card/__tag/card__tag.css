@@ -1,0 +1,25 @@
+.card__tag {
+	margin: 0;
+	padding: 0 8px;
+
+	max-width: 448px;
+	max-height: 24px;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+
+	display: inline-block;
+	align-items: center;
+
+	color: #212329;
+
+	font-family: "Golos", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 133%;
+
+	background: #e6e7eb;
+	border-radius: 16px;
+}

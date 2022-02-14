@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Профиль</title>
+	<link rel="stylesheet" href="../vendor/profile.css">
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header__container section-center">
+				<a href="index.html" class="header__link">
+					<h1 class="header__title">Учебная платформа</h1>
+				</a>
+				<div class="header__nav">
+					<a href="index.html" class="header__link">
+						<img class="icon icon_place_header" src="../src/images/hat.svg" alt="курсы">
+						<span class="header__text">Курсы</span>
+					</a>
+					<a href="#" class="header__link header__link_active">
+						<img class="icon icon_place_header" src="../src/images/person-active.svg" alt="профиль">
+						<span class="header__text">Профиль</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page__content page__content_index_profile section-center">
+			<h1 class="page__title page__title_index_profile">Профиль</h1>
+			<section class="account">
+				<div class="account__avatar">
+					<img src="../src/images/avatar.jpg" alt="" class="account__picture">
+					<p class="account__title">Иванова Анна Сидоровна</p>
+				</div>
+				<ul class="account__info">
+					<li>
+						<p class="account__info-item"><img src="../src/images/rank.svg" alt=""
+								class="icon icon_place_profile">Профессионал</p>
+					</li>
+					<li>
+						<p class="account__info-item"><img src="../src/images/medal.svg" alt=""
+								class="icon icon_place_profile">Картограф</p>
+					</li>
+					<li>
+						<p class="account__info-item"><img src="../src/images/hat.svg" alt=""
+								class="icon icon_place_profile">Пройдено 2
+							курса</p>
+					</li>
+				</ul>
+				<button class="button button_place_form button_with-icon button_status_ready">
+					<img class="icon icon_place_button" src="../src/images/exit-door.svg" alt="">
+					<span class="account__quit-text">Выйти из аккаунта</span>
+				</button>
+			</section>
+
+			<section class="form">
+				<form class="form__container">
+					<h2 class="form__title">Личные данные</h2>
+					<label for="full-name" class="form__label">ФИО</label>
+					<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="full-name"
+						name="full-name" value="Иванова Анна Сидоровна">
+					<label for="date-birth" class="form__label">Дата рождения</label>
+					<input class="form__item form__item_el_date form__item_icon_pencil" type="date" id="date-birth"
+						name="date-birth" value="1990-01-01">
+					<label for="region" class="form__label">Географический регион</label>
+					<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="region"
+						name="region" value="г. Санкт-Петербург">
+					<label for="nickname" class="form__label">Позывной на форуме</label>
+					<input class="form__item form__item_el_text form__item_icon_pencil" type="text" id="nickname"
+						name="nickname" value="Белка">
+					<label for="photo" class="form__label">Фото</label>
+					<label for="photo" class="form__item form__item_el_file form__item_icon_clip">photo.jpg</label>
+					<input type="file" name="photo" id="photo" style="opacity: 0; width: 1px; height: 1px;"
+						accept=".jpg, .jpeg, .png" onchange="processSelectedFiles(this)" />
+					<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
+				</form>
+				<div class="info">
+					<p class="info__text">Просьба указывать настоящие ФИО, это нужно для получения сертификатов</p>
+					<p class="info__text">Географический регион влияет на доступность некоторых курсов и занятий</p>
+					<p class="info__text">
+						Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите позывной на форуме — он
+						будет
+						отображаться вместо ваших настоящих данных
+					</p>
+					<p class="info__text">Требования к загружаемому фото:</p>
+					<ul class="info__list">
+						<li>разрешение не менее 640x640px</li>
+						<li>размер не более 3 МБ</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<section class="form">
+				<form class="form__container">
+					<h2 class="form__title">Аккаунт</h2>
+					<label for="user-phone" class="form__label">Номер телефона</label>
+					<input class="form__item form__item_el_text" type="tel" id="user-phone" name="user-phone"
+						placeholder="+7 123 456 78 90">
+					<label for="user-email" class="form__label">Email</label>
+					<input class="form__item form__item_el_text form__item_icon_pencil" type="email" id="user-email"
+						name="user-email" value="anna@liza-alert.ru">
+					<label for="password" class="form__label">Пароль</label>
+					<input id="password" class="form__item form__item_el_text form__item_icon_pencil" type="text"
+						oninput="showStars(this)" value="*********">
+					<button class="button button_place_form button_status_disabled">Сохранить изменения</button>
+				</form>
+				<div class="info">
+					<p class="info__text">Номер телефона используется как уникальный идентификатор пользователя, поэтому
+						его нельзя поменять
+						вручную
+					</p>
+					<p class="info__text">Если по какой-то причине у вас нет доступа к номеру телефона на который вы
+						регистрировали аккаунт,
+						напишите в поддержку</p>
+					<p class="info__text">Email нужен для восстановления пароля</p>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="../scripts/showStars.js"></script>
+	<script src="../scripts/selectedfiles.js"></script>
+</body>
+
+</html>

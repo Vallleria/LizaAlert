@@ -1,0 +1,15 @@
+.checkbox {
+    display: flex;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.checkbox:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 787px) {
+	.checkbox {
+		margin-bottom: 12px;
+	}
+}

@@ -1,0 +1,5 @@
+.accordion__body {
+	padding-bottom: 32px;
+	max-height: 300px;
+	transition: max-height ease-in-out .4s, opacity ease-in-out .4s;
+}

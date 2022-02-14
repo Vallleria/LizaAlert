@@ -1,0 +1,59 @@
+/* Техническое */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* Страница */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__title/page__title.css);
+@import url(../blocks/page/__title/_index/page__title_index_profile.css);
+
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__content/_index/page__content_index_profile.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+
+/* Профиль */
+@import url(../blocks/account/account.css);
+@import url(../blocks/account/__avatar/account__avatar.css);
+@import url(../blocks/account/__picture/account__picture.css);
+@import url(../blocks/account/__title/account__title.css);
+@import url(../blocks/account/__info/account__info.css);
+@import url(../blocks/account/__info-item/account__info-item.css);
+@import url(../blocks/account/__quit-text/account__quit-text.css);
+
+/* Иконка */
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/_place/icon_place_profile.css);
+@import url(../blocks/icon/_place/icon_place_button.css);
+
+/* Кнопка в профиле */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_form.css);
+@import url(../blocks/button/_with-icon/button_with-icon.css);
+@import url(../blocks/button/_status/button_status_ready.css);
+@import url(../blocks/button/_status/button_status_active.css);
+@import url(../blocks/button/_status/button_status_disabled.css);
+
+/* Форма */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__label/form__label.css);
+
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_date.css);
+@import url(../blocks/form/__item/_el/form__item_el_file.css);
+@import url(../blocks/form/__item/_icon/form__item_icon_clip.css);
+@import url(../blocks/form/__item/_icon/form__item_icon_pencil.css);
+
+/* Информация к форме */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__text/info__text.css);
