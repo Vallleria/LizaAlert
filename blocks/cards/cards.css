@@ -5,6 +5,7 @@
 	max-width: 984px;
 
 	grid-area: cards;
+	margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1250px) {
