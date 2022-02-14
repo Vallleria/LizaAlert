@@ -1,4 +1,3 @@
-
 # LizaAlert Project
 
 ### Обзор
