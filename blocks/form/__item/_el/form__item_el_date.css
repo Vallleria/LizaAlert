@@ -1,7 +1,0 @@
-.form__item_el_date::-webkit-calendar-picker-indicator {
-  display: none;
-}
-
-.form__item_el_date {
-  cursor: text;
-} 
