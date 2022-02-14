@@ -1,0 +1,15 @@
+.page__title {
+	margin: 0;
+	padding: 0;
+
+	grid-area: page-title;
+
+	/* max-width: 1320px; */
+	font-family: "Golos", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 100%;
+
+	justify-self: start;
+}
