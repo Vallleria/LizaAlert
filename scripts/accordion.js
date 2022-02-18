@@ -45,6 +45,7 @@ function checkboxLogic(e) {
 function addTag(input) {
   const text = input.parentNode.textContent
   const tag = document.createElement('button')
+  tag.classList.add('card-filters__tag')
   tag.textContent = text
   activeTags.push([tag, input])
 
