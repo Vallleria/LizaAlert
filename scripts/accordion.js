@@ -31,6 +31,9 @@ const activeTags = []
 
 allCheckboxes.forEach((item) => {
   item.addEventListener('click', checkboxLogic)
+  if (item.checked) {
+    addTag(item)
+  }
 })
 
 function checkboxLogic(e) {
@@ -59,8 +62,8 @@ function addTag(input) {
       }
     })
     currentInput.checked = false
-    delete currentTag
     currentTag.remove()
+    delete currentTag
   }
   tag.addEventListener('click', tagLogic)
   tagContainer.append(tag)
@@ -74,8 +77,8 @@ function removeTag(input) {
     }
   })
   if (currentTag) {
-    delete currentTag
     currentTag.remove()
+    delete currentTag
     input.checked = false
   }
 }
