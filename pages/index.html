@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Курсы</title>
-	<link rel="stylesheet" href="../vendor/index.css">
+	<link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -26,9 +26,9 @@
 			</div>
 		</header>
 
-		<main class="page__content page__content_index_courses page_center">
+		<main class="page__content page__content_index_courses">
 			<h1 class="page__title page__title_index_courses">Курсы</h1>
-			<div class="cards">
+			<section class="cards">
 				<article class="card">
 					<img src="../src/images/dog.jpg" alt="Собака" class="card__image">
 					<div class="card__content card__content_place_start">
@@ -186,110 +186,124 @@
 					</div>
 				</article>
 
-			</div>
+			</section>
 
 
 			<!-- FILTERS -->
 			<aside class="card-filters">
-				<div class="card-filters__header">
-					<h3 class="card-filters__title">Фильтры</h3>
-					<button class="card-filters__btn" type="button">Очистить</button>
+				<div class="card-filters__top">
+					<div class="card-filters__header">
+						<h3 class="card-filters__title">Фильтры</h3>
+						<button class="card-filters__btn" type="button">Очистить</button>
+					</div>
+					<form class="filter-form" action="#">
+						<ul class="accordion">
+							<li class="accordion__item">
+								<div class="accordion__header">
+									<h3 class="accordion__title">Категория</h3>
+									<button class="accordion__collapse-btn" type="button"></button>
+								</div>
+								<div class="accordion__body accordion__body_hide">
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" checked>
+										<span class="checkbox__text">Активный элемент</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" checked>
+										<span class="checkbox__text">Активный элемент</span>
+									</label>
+
+
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" disabled>
+										<span class="checkbox__text"> Заблокированный элемент</span>
+									</label>
+
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text"> Элемент списка</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Элемент списка</span>
+									</label>
+
+								</div>
+							</li>
+							<li class="accordion__item">
+								<div class="accordion__header">
+									<h3 class="accordion__title">Тематика</h3>
+									<button class="accordion__collapse-btn" type="button"></button>
+								</div>
+								<div class="accordion__body accordion__body_hide">
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" checked>
+										<span class="checkbox__text">Активный элемент</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Элемент</span>
+									</label>
+								</div>
+							</li>
+							<li class="accordion__item">
+								<div class="accordion__header">
+									<h3 class="accordion__title">Уровень</h3>
+									<button class="accordion__collapse-btn" type="button"></button>
+								</div>
+								<div class="accordion__body accordion__body_hide">
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" checked>
+										<span class="checkbox__text">Новичок</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox" disabled>
+										<span class="checkbox__text">Бывалый</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Профессионал</span>
+									</label>
+								</div>
+							</li>
+							<li class="accordion__item">
+								<div class="accordion__header">
+									<h3 class="accordion__title">Статус</h3>
+									<button class="accordion__collapse-btn" type="button"></button>
+								</div>
+								<div class="accordion__body accordion__body_hide">
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Не активный</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Вы записаны</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Активный</span>
+									</label>
+									<label class="checkbox">
+										<input class="checkbox__item" type="checkbox">
+										<span class="checkbox__text">Пройден</span>
+									</label>
+								</div>
+							</li>
+						</ul>
+					</form>
 				</div>
-				<form class="filter-form" action="#">
-					<ul class="accordion">
-						<li class="accordion__item">
-							<div class="accordion__header">
-								<h3 class="accordion__title">Категория</h3>
-								<button class="accordion__collapse-btn" type="button"></button>
-							</div>
-							<div class="accordion__body accordion__body_hide">
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" checked>
-									<span class="checkbox__text">Активный элемент</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" checked>
-									<span class="checkbox__text">Активный элемент</span>
-								</label>
+				<div class="card-filters__bottom">
+					<div class="card-filters__tags">
 
-
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" disabled>
-									<span class="checkbox__text"> Заблокированный элемент</span>
-								</label>
-
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text"> Элемент списка</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text">Элемент списка</span>
-								</label>
-
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header">
-								<h3 class="accordion__title">Тематика</h3>
-								<button class="accordion__collapse-btn" type="button"></button>
-							</div>
-							<div class="accordion__body accordion__body_hide">
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" checked>
-									<span class="checkbox__text">Активный элемент</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text">Элемент</span>
-								</label>
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header">
-								<h3 class="accordion__title">Уровень</h3>
-								<button class="accordion__collapse-btn" type="button"></button>
-							</div>
-							<div class="accordion__body accordion__body_hide">
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" checked>
-									<span class="checkbox__text">Новичок</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox" disabled>
-									<span class="checkbox__text">Бывалый</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text">Профессионал</span>
-								</label>
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header">
-								<h3 class="accordion__title">Статус</h3>
-								<button class="accordion__collapse-btn" type="button"></button>
-							</div>
-							<div class="accordion__body accordion__body_hide">
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text">Элемент</span>
-								</label>
-								<label class="checkbox">
-									<input class="checkbox__item" type="checkbox">
-									<span class="checkbox__text">Элемент</span>
-								</label>
-							</div>
-						</li>
-					</ul>
-
-				</form>
+					</div>
+				</div>
 			</aside>
 		</main>
 	</div>
 	<!-- END FILTERS-->
 	<script src="../scripts/accordion.js"></script>
+	<script src="../scripts/cardButtonLogic.js"></script>
 </body>
 
 </html>
-

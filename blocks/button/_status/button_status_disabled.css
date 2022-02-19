@@ -1,0 +1,10 @@
+.button_status_disabled {
+	background: #e6e7eb;
+	color: #9397a3;
+
+	cursor: default;
+	pointer-events: none;
+}
+.button_status_disabled:hover {
+	opacity: 1;
+}

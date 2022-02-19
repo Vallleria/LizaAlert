@@ -1,0 +1,13 @@
+.card-filters {
+    box-sizing: border-box;
+    max-width: 312px;
+	grid-area: card-filters;
+}
+
+
+@media screen and (max-width: 420px) {
+	.card-filters {
+		width: 100%;
+		max-width: none;
+	}
+}

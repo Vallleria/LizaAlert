@@ -1,0 +1,75 @@
+/* Техническое */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* Страница */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__title/page__title.css);
+@import url(../blocks/page/__title/_index/page__title_index_courses.css);
+
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__content/_index/page__content_index_courses.css);
+
+/* Шапка */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
+
+/* animation */
+@import url(../animations/rotation/rotate.css);
+
+/* Кнопка */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_card.css);
+@import url(../blocks/button/_place/button_place_form.css);
+
+@import url(../blocks/button/_status/button_status_disabled.css);
+@import url(../blocks/button/_status/button_status_active.css);
+@import url(../blocks/button/_status/button_status_ready.css);
+
+/* Использовать для кнопки с SVG (выход из профиля) */
+@import url(../blocks/button/_with-icon/button_with-icon.css);
+
+/* Иконки */
+@import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/_place/icon_place_button.css);
+@import url(../blocks/icon/_place/icon_place_header.css);
+@import url(../blocks/icon/_place/icon_place_card.css);
+
+/* Карточки */
+@import url(../blocks/cards/cards.css);
+
+/* Каждая карточка*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__tag/card__tag.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__info/card__info.css);
+
+/* FILTERS*/
+@import url(../blocks/filter-form/filter-form.css);
+@import url(../blocks/card-filters/card-filters.css);
+@import url(../blocks/card-filters/__header/card-filters__header.css);
+@import url(../blocks/card-filters/__title/card-filters__title.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/card-filters/__top/card-filters__top.css);
+@import url(../blocks/card-filters/__btn/card-filters__btn.css);
+@import url(../blocks/card-filters/__tag/card-filters__tag.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__collapse-btn/accordion__collapse-btn.css);
+@import url(../blocks/accordion/__collapse-btn/_collapsed/accordion__collapse-btn_collapsed.css);
+@import url(../blocks/accordion/__body/accordion__body.css);
+
+@import url(../blocks/accordion/__header/accordion__header.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__text/checkbox__text.css);
+@import url(../blocks/checkbox/__item/checkbox__item.css);
+
+@import url(../blocks/accordion/__body/_hide/accordion__body_hide.css);
